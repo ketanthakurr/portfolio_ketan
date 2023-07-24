@@ -1,0 +1,145 @@
+@media (max-width: 1535px) {
+    header{
+        padding: 15px 3%;
+        transition: .2s;
+    }
+    .icons{
+        padding: 0 3%;
+        transition: .2s;
+    }
+    .scroll-down{
+        right: 3%;
+        transition: .2s;
+    }
+}
+
+@media (max-width: 1460px) {
+    section{
+        padding: 0 12%;
+        transition: .2s;
+    }
+    .my-img img{
+        width: 400px;
+        height: auto;
+        transition: .5s ease-in-out;
+        /* min-width: 350px; */
+    }
+}
+
+@media (max-width: 1175px){
+    .my-img img{
+        width: 350px;
+        height: auto;
+        transition: .5s ease-in-out;
+        /* min-width: 350px; */
+    }
+
+    .intro-text h5{
+        font-size: 22px;
+        font-weight: 400; 
+    }
+      
+    .intro-text h4{
+        font-size: 50px;
+    }  
+
+    .intro-text h2{
+        font-size: 20px;
+    }
+
+    .intro-text p{
+        font-size: 15px;
+    }  
+
+} 
+
+@media (max-width: 950px){
+
+    section{
+        padding: 0 3%;
+        transition: .5s;
+    }
+
+    .my-img{
+        text-align: center;
+    }
+    
+    .my-img img{
+        width: 460px;
+        height: auto;
+    }
+
+    .intro{
+        height: 100%;
+        gap: 1rem;
+        grid-template-columns: 1fr;
+    }
+
+    .intro-text{
+        padding-top: 115px; 
+    }
+
+    .icons{
+        display: none;
+    }
+
+    .scroll-down{
+        display: none;
+    }
+}
+
+@media (max-width: 850px){
+    #menu-icon{
+        display: block;
+    }
+
+    .nav-list{
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        width: 300px;
+        height: 40vh;
+        background: rgb(255, 22, 92, 0.5);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 50px 20px;
+        transition: all .55s ease;
+    }
+
+    .nav-list a{
+        display: block;
+        margin: 12px 0;
+        margin-left: 0;
+    }
+
+    .nav-list.open{
+        right: 0;
+    }
+
+}
+
+@media (max-width: 680px){
+    .my-img img{
+        width: 340px;
+        height: auto;
+    }
+    
+    .intro-text h5{
+        font-size: 20px;
+        font-weight: 400; 
+    }
+      
+    .intro-text h4{
+        font-size: 40px;
+    }  
+
+    .intro-text h2{
+        font-size: 18px;
+    }
+
+    .intro-text p{
+        font-size: 13px;
+    }  
+
+}
