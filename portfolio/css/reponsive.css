@@ -89,7 +89,7 @@
 }
 
 @media (max-width: 850px){
-    #menu-icon{
+        #menu-icon{
         display: block;
     }
 
@@ -113,10 +113,9 @@
         margin-left: 0;
     }
 
-    .nav-list.open{
-        right: 0;
+    .nav-list .open{
+        right: 0%;
     }
-
 }
 
 @media (max-width: 680px){
