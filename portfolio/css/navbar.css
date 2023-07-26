@@ -40,7 +40,11 @@ header{
   .nav-list a:hover{
     border-bottom: 2px solid ;
     border-color: rgb(255, 22, 92);
+  }
 
+  .nav-list .highlight{
+    border-bottom: 2px solid ;
+    border-color: rgb(255, 22, 92);
   }
   
   #menu-icon{

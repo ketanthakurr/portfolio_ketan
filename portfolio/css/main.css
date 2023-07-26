@@ -57,6 +57,8 @@ section{
   text-transform: uppercase;
 }
 
+
+
 .intro-text a:hover{
   background-color:rgb(250, 149, 180);
 }
@@ -66,49 +68,6 @@ section{
   height: auto;
   border-radius: 40%;
 }
-
-/* ----------------------------------------------social links icons------------------------------------------- */
-
-.icons{
-  position: absolute;
-  top: 50%;
-  padding: 0 9%;
-  transform: translateY(-50%);
-}
-
-.icons i{
-  display: block;
-  margin: 26px 0;
-  font-size: 24px;
-  color: white;
-  transition: all .50s ease;
-}
-
-.icons i:hover{
-  color: rgb(255, 22, 92);
-  transform: translateY(-5px);
-}
-
-.scroll-down{
-  position: absolute;
-  bottom: 6%;
-  right: 9%;
-}
-
-.scroll-down i{
-  display: block;
-  padding: 12px;
-  font-size: 25px;
-  color: white;
-  background-color: rgb(255, 22, 92);
-  border-radius: 30px;
-  transition: all .50s ease;
-}
-
-.scroll-down i:hover{
-  transform: translateY(-5px);
-}
-
 
 
 
