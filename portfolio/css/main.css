@@ -19,8 +19,7 @@
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   gap: 10rem;
-  color: white
-  ;
+  color: white;
 }
 
 section{

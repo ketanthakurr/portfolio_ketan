@@ -22,25 +22,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 
 </head>
 <body>
 
     <!-- Navbar -->
-    
-    <header>
-        <a href="#" class="logo">Ketan <span> .exe </span></a>
+    <div id="nav-placeholder"></div>
 
-        <ul class="nav-list">
-            <li><a href="#" class="highlight">Home</a></li>
-            <li><a href="skills.html" class="">Skills</a></li>
-            <li><a href="#">My work</a></li>
-            <li><a href="#">Experiences</a></li>
-            <li><a href="#">Contact me</a></li>
-        </ul>
-
-        <div class="bx bx-menu" id="menu-icon"></div>
-    </header>
 
     <section class="intro">
         <div class="intro-text">
@@ -54,33 +43,26 @@
         <div class="my-img">
             <img src="images/me.jpg" alt="">
         </div>
-<!-- 
-        <div class="logo-animate">
-            <img src="images/logos/c++.png" alt="">
-            <img src="images/logos/python.png" alt="">
-            <img src="images/logos/dart.png" alt="">
-            <img src="images/logos/js.png" alt="">
-            <img src="images/logos/java.png" alt="">
-            <img src="images/logos/html.png" alt="">
-        </div> -->
 
     </section>
 
-    <div class="icons">
-            <a href="#"><i class="ri-instagram-line"></i></a>
-            <a href="#"><i class="ri-github-fill"></i></a>
-            <a href="#"><i class="ri-linkedin-box-fill"></i></a>
-    </div>
-
-    <!-- <div class="scroll-down">
-        <a href="#"><i class="ri-arrow-drop-down-line"></i></a>
-    </div> -->
-
+    
+    <!-- social links -->
+    <div id="social-links"></div>
 
 
     <!-- Java script link -->
     <script src='js/main.js'></script>
     <script src="https://unpkg.com/scrollreveal"></script>
+    
+    <script>
+        $(function(){
+          $("#nav-placeholder").load("components/nav.html");
+        });
+        $(function(){
+          $("#social-links").load("components/sociallinks.html");
+        });
+    </script>
 
 </body>
 </html></html>
